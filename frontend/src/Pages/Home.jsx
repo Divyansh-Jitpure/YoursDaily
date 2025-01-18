@@ -1,12 +1,14 @@
 import React from "react";
+import Navbar from "../Components/LandingPage/Navbar";
+import Hero from "../Components/LandingPage/Hero";
 
 const Home = () => {
   return (
     <div>
       {/* Navbar */}
-      <nav></nav>
+      <Navbar />
       {/* Hero */}
-      <section></section>
+      <Hero />
       {/* Content */}
       <section></section>
       {/* Footer */}
