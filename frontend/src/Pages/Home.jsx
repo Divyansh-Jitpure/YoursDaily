@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Components/LandingPage/Navbar";
 import Hero from "../Components/LandingPage/Hero";
+import Footer from "../Components/LandingPage/Footer";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       {/* Content */}
       <section></section>
       {/* Footer */}
-      <footer></footer>
+      <Footer />
     </div>
   );
 };
